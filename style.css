@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    flex-direction: column;
+}
+
+canvas {
+    border: 1px solid #fff;
+}
+
+.game-over {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    display: none;
+}
+
+.score {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+}
